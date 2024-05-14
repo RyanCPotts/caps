@@ -2,9 +2,9 @@
   "name": "caps",
   "version": "1.0.0",
   "description": "",
-  "main": "eventPool.js",
+  "main": "hub.js",
   "scripts": {
-    "start": "node eventPool.js",
+    "start": "node hub.js",
     "test": "jest --coverage --verbose"
   },
   "author": "",
