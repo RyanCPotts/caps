@@ -1,0 +1,21 @@
+{
+  "name": "vendor",
+  "version": "1.0.0",
+  "main": "vendor.js",
+  "scripts": {
+    "dev": "node vendor.js",
+    "test": "jest",
+    "start": "node vendor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chance": "^1.1.12",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
