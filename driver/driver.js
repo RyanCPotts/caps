@@ -1,7 +1,8 @@
 'use strict';
 
 require('dotenv').config();
-const HUB_URL = process.env.HUB_URL || 'http://localhost:3000';
+const HUB_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3000';
+
 
 const io = require('socket.io-client');
 const socket = io.connect(HUB_URL);
